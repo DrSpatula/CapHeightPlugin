@@ -62,6 +62,8 @@
             var line_height = glyph_height / options.font_size;
             $this.css('line-height', line_height);
         });
+
+        $(canvas).remove();
     };
 
     $.fn.CapHeight.defaults = {
